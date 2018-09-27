@@ -7,20 +7,24 @@
 
 #import "ZMStringUtil.h"
 
+@interface ZMStringUtil ()
+
+@end
+
 @implementation ZMStringUtil
 
 + (BOOL)isChinese:(NSString *)chinese {
     if (chinese.length == 0) return NO;
     NSString *regex = @"[\u4e00-\u9fa5]+";
-    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    return [pred evaluateWithObject:chinese];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    return [predicate evaluateWithObject:chinese];
 }
 
 + (BOOL)isNumber:(NSString *)number {
     if (number.length == 0) {
         return NO;
     }
-    NSString *regex = @"[0-9]*";
+    NSString *regex = @"[0-9]+";
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     if ([predicate evaluateWithObject:number]) {
         return YES;
@@ -32,7 +36,7 @@
     if(letter.length == 0){
         return NO;
     }
-    NSString *regex = @"[a-zA-Z]*";
+    NSString *regex = @"[a-zA-Z]+";
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     if ([predicate evaluateWithObject:letter]) {
         return YES;
@@ -53,7 +57,7 @@
     if (numAndLetter.length == 0) {
         return NO;
     }
-    NSString *regex = @"[a-zA-Z0-9]*";
+    NSString *regex = @"[a-zA-Z0-9]+";
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     if ([predicate evaluateWithObject:numAndLetter]) {
         return YES;
