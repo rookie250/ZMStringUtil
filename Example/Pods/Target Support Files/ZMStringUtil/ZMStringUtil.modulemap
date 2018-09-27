@@ -1,0 +1,6 @@
+framework module ZMStringUtil {
+  umbrella header "ZMStringUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

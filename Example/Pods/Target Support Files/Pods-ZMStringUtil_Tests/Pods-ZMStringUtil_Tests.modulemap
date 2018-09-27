@@ -1,0 +1,6 @@
+framework module Pods_ZMStringUtil_Tests {
+  umbrella header "Pods-ZMStringUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

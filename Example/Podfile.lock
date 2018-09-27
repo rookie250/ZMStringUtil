@@ -1,0 +1,16 @@
+PODS:
+  - ZMStringUtil (0.1.0)
+
+DEPENDENCIES:
+  - ZMStringUtil (from `../`)
+
+EXTERNAL SOURCES:
+  ZMStringUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMStringUtil: 43f6203f2a935f37665c5267dc1018ae1fd924bf
+
+PODFILE CHECKSUM: 6e26a7f081b11ca65679ca4ffd367a1c38ea60fe
+
+COCOAPODS: 1.5.0
