@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZMStringUtil_Tests' do
+  pod 'ZMStringUtil', :path => '../'
+  
+  
+end
