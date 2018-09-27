@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		0F2F75BBE51AB4BB57F799304B48A87E /* ZMStringUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 539DE482465EEC738B47BFFD2AAC2D84 /* ZMStringUtil-dummy.m */; };
 		1E88412F43567AFBB0145EE47CBB74F6 /* ZMStringUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0D259DFC0A85E4D8A39E10D1090125 /* ZMStringUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D022ECBD6EB9069B42278651AFC2072 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 40899E8F11F47B09E6B4C4FE1E896F91 /* ReplaceMe.m */; };
 		659DEBE1D3BC5EA2FAD59B718394FB18 /* Pods-ZMStringUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCF500E1DCD413AC147ABF5CD1CB6B8 /* Pods-ZMStringUtil_Tests-dummy.m */; };
+		68BFE405215CB01F007777F5 /* ZMStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BFE403215CB01F007777F5 /* ZMStringUtil.h */; };
+		68BFE406215CB01F007777F5 /* ZMStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BFE403215CB01F007777F5 /* ZMStringUtil.h */; };
+		68BFE407215CB01F007777F5 /* ZMStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BFE404215CB01F007777F5 /* ZMStringUtil.m */; };
+		68BFE408215CB01F007777F5 /* ZMStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BFE404215CB01F007777F5 /* ZMStringUtil.m */; };
 		988679582FE8DD421964F9296519732F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9A41ECC918304CFE833888AB1FB8061C /* Pods-ZMStringUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6610F79B59A3EDD992BD229219EABEC0 /* Pods-ZMStringUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C913077B9CB8746A87EDEA59258D401C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -30,27 +33,28 @@
 		0C15136373F53C2DCFFF9F674F5E1190 /* Pods-ZMStringUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMStringUtil_Tests-resources.sh"; sourceTree = "<group>"; };
 		2BCF500E1DCD413AC147ABF5CD1CB6B8 /* Pods-ZMStringUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMStringUtil_Tests-dummy.m"; sourceTree = "<group>"; };
 		2EC2DCDA55CAED5E64B05DE7887303AD /* Pods-ZMStringUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMStringUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40899E8F11F47B09E6B4C4FE1E896F91 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZMStringUtil/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		50991A89115C60784075F5136FE73645 /* Pods-ZMStringUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMStringUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		539DE482465EEC738B47BFFD2AAC2D84 /* ZMStringUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMStringUtil-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6440DA6B7D462931CACB487B7491B777 /* ZMStringUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMStringUtil-prefix.pch"; sourceTree = "<group>"; };
 		6610F79B59A3EDD992BD229219EABEC0 /* Pods-ZMStringUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMStringUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68BFE403215CB01F007777F5 /* ZMStringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZMStringUtil.h; path = ZMStringUtil/Classes/ZMStringUtil.h; sourceTree = "<group>"; };
+		68BFE404215CB01F007777F5 /* ZMStringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZMStringUtil.m; path = ZMStringUtil/Classes/ZMStringUtil.m; sourceTree = "<group>"; };
 		6A0D259DFC0A85E4D8A39E10D1090125 /* ZMStringUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMStringUtil-umbrella.h"; sourceTree = "<group>"; };
-		77EF22D9D729588F60A727EDA70EF56A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		78C73776CEEDFB7E3F0B12BEA4A5946D /* ZMStringUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZMStringUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		77EF22D9D729588F60A727EDA70EF56A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78C73776CEEDFB7E3F0B12BEA4A5946D /* ZMStringUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZMStringUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		86460CF02B81B9F55DFEBD3E24E8A3F5 /* Pods-ZMStringUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMStringUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		8D3ED8CDB066112625B98CEB09DE963F /* Pods-ZMStringUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMStringUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C914F7E57BDBA26301EB4A1160058DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7183CB89EA102EE74612E552648C6DE /* ZMStringUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMStringUtil.modulemap; sourceTree = "<group>"; };
-		B5EAFA7318BBB0D93D2E2FAE2D45DE61 /* Pods_ZMStringUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMStringUtil_Tests.framework; path = "Pods-ZMStringUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EAFA7318BBB0D93D2E2FAE2D45DE61 /* Pods_ZMStringUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMStringUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D498AD639739DE757EC8CEAA0C20297D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0A3DF0D6969111EC1520FDDB427BFBC /* Pods-ZMStringUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMStringUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E24F38AE6CB3054408F1BA47602E35E8 /* ZMStringUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMStringUtil.xcconfig; sourceTree = "<group>"; };
 		F591470846D56EFE16F6E0C432B5203A /* Pods-ZMStringUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMStringUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F9BFCE1D31A2E66DD708A3820FF9EBDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FC80E4E16C2C15369A48E9B672B785F9 /* ZMStringUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMStringUtil.framework; path = ZMStringUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BFCE1D31A2E66DD708A3820FF9EBDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC80E4E16C2C15369A48E9B672B785F9 /* ZMStringUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMStringUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +158,8 @@
 		A1D4306B828AD30AAAC66F61661C43D8 /* ZMStringUtil */ = {
 			isa = PBXGroup;
 			children = (
-				40899E8F11F47B09E6B4C4FE1E896F91 /* ReplaceMe.m */,
+				68BFE403215CB01F007777F5 /* ZMStringUtil.h */,
+				68BFE404215CB01F007777F5 /* ZMStringUtil.m */,
 				0C97BDA26356D3242C845DA82BE26873 /* Pod */,
 				749C566F408EC248FAB0B4EC146C2F00 /* Support Files */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BFE405215CB01F007777F5 /* ZMStringUtil.h in Headers */,
 				9A41ECC918304CFE833888AB1FB8061C /* Pods-ZMStringUtil_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +199,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BFE406215CB01F007777F5 /* ZMStringUtil.h in Headers */,
 				1E88412F43567AFBB0145EE47CBB74F6 /* ZMStringUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659DEBE1D3BC5EA2FAD59B718394FB18 /* Pods-ZMStringUtil_Tests-dummy.m in Sources */,
+				68BFE407215CB01F007777F5 /* ZMStringUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D022ECBD6EB9069B42278651AFC2072 /* ReplaceMe.m in Sources */,
 				0F2F75BBE51AB4BB57F799304B48A87E /* ZMStringUtil-dummy.m in Sources */,
+				68BFE408215CB01F007777F5 /* ZMStringUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
